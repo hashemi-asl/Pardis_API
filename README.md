@@ -35,6 +35,7 @@ CREATE USER 'api_user'@'localhost' identified by 'api_password';
 GRANT ALL on pardis_api.* to 'api_user'@'localhost';
 quit
 ```
+توجه: در صورتی که به جای الفاظ پیشنهادی بالا، از الفاظ دیگری استفاده کردید، حتما تغییرات متناسب با این الفاظ را در فایل `config.php` اعمال کنید
 
 ### Clone the project repository
 
